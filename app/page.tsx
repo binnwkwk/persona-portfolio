@@ -1,7 +1,5 @@
-import Menu from "@/components/Menu";
+import FullscreenGate from "@/components/FullscreenGate";
 
 export default function Home() {
-  return (
-      <Menu />
-  );
+  return <FullscreenGate />;
 }
